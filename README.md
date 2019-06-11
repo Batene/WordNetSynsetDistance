@@ -38,6 +38,9 @@ This project retrieves the $k$ shortest pathes between two synsets in WordNet us
 
 3) tomee plus 7
 
+To add the server: 
+Choose New -> Others -> Server -> Server -> Next -> Apache -> Tomcat v8.5 -> Next -> Browse (Tomcat installation directory) -> choose the installation directory of tomee plus 7 -> Next -> Select and then Add the Project -> Finish
+
 4) topk-pfn and a jar which is created when running mvn install of it:
 Note: the mvn install does not work properly with the current version of topk-pfn, so you need this work-around:
 
