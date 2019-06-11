@@ -1,8 +1,8 @@
-#Finding the k shortest pathes between two WordNet synsets
+# Finding the k shortest pathes between two WordNet synsets
 
 todo: possibility to pass path to config.properties file instead of hard-coded path 
 
-##Description
+## Description
 This project retrieves the $k$ shortest pathes between two synsets in WordNet using the implementation of 
 
 @inproceedings{Savenkov:2017:CKS:3132218.3132239,
@@ -26,7 +26,7 @@ This project retrieves the $k$ shortest pathes between two synsets in WordNet us
 \url{https://bitbucket.org/vadim_savenkov/topk-pfn/src/master/}
 
 
-##Prerequisites:
+## Prerequisites:
 
 0) Java 1.8
 
