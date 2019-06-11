@@ -40,7 +40,7 @@ This project retrieves the $k$ shortest pathes between two synsets in WordNet us
 
 4) topk-pfn and a jar which is created when running mvn install of it:
 Note: the mvn install does not work properly with the current version of topk-pfn, so you need this work-around:
-====
+
 a) add dependency to pom.xml
     <dependency>
     <groupId>com.github.jsonld-java</groupId>
@@ -54,9 +54,9 @@ b) deactivate tests in pom.xml :
 </properties>
 
 and run mvn install
-or : 
-run mvn install -Dmaven.test.skip=true 
-====
+
+or : run mvn install -Dmaven.test.skip=true 
+
 
 After doing that, right-click on project restful-java-topk -> properties -> Deployment Assembly -> Add -> choose topk-pfn  or or dd the generted jr file 
 topk-pfn\target\lib\path-1.0-SNAPSHOT.jar :
